@@ -87,3 +87,27 @@
       transform: rotate(-1.5deg);
     }
 
+
+    .sound-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      border: 3px solid var(--ink);
+      box-shadow: var(--shadow-sm);
+      padding: 7px 16px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.1s ease;
+    }
+    .sound-toggle-btn:hover {
+      background: #f1f5f9;
+      transform: translate(-1px, -1px);
+      box-shadow: 4px 4px 0px var(--ink);
+    }
+    .sound-toggle-btn:active {
+      transform: translate(2px, 2px);
+      box-shadow: 1px 1px 0px var(--ink);
+    }
