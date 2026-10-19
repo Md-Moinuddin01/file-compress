@@ -289,3 +289,14 @@
       border-bottom: 2px dashed #cbd5e1;
     }
 
+
+    .machine-model {
+      font-family: var(--font-comic);
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--metal-dark);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
