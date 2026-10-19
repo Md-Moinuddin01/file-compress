@@ -158,3 +158,11 @@
     }
 
 
+    .subtitle {
+      font-size: 15px;
+      font-weight: 600;
+      color: #52525b;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
