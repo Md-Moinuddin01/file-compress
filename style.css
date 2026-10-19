@@ -121,3 +121,11 @@
       gap: 24px;
     }
 
+
+
+    /* Header */
+    header {
+      text-align: center;
+      position: relative;
+    }
+
