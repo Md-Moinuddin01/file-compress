@@ -176,3 +176,11 @@
       padding: 14px 18px;
     }
 
+
+    .soundboard-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
