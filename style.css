@@ -184,3 +184,14 @@
       margin-bottom: 10px;
     }
 
+
+
+    .soundboard-title {
+      font-family: var(--font-comic);
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
