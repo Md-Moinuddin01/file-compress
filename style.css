@@ -111,3 +111,13 @@
       transform: translate(2px, 2px);
       box-shadow: 1px 1px 0px var(--ink);
     }
+
+    /* Main Container */
+    .container {
+      width: 100%;
+      max-width: 860px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
