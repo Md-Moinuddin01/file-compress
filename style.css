@@ -28,3 +28,21 @@
     }
 
 
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(#d1c4a5 1.5px, transparent 1.5px),
+        radial-gradient(#d1c4a5 1.5px, var(--bg) 1.5px);
+      background-size: 32px 32px;
+      background-position: 0 0, 16px 16px;
+      color: var(--ink);
+      font-family: var(--font-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 16px 40px;
+      overflow-x: hidden;
+      transition: background-color 0.3s;
+    }
+
