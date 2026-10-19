@@ -46,3 +46,17 @@
       transition: background-color 0.3s;
     }
 
+
+    /* Screen shake during slam */
+    body.screen-shake {
+      animation: shake 0.45s cubic-bezier(.36,.07,.19,.97) both;
+    }
+
+    @keyframes shake {
+      10%, 90% { transform: translate3d(-3px, 4px, 0) rotate(-0.5deg); }
+      20%, 80% { transform: translate3d(5px, -3px, 0) rotate(1deg); }
+      30%, 50%, 70% { transform: translate3d(-6px, 6px, 0) rotate(-1deg); }
+      40%, 60% { transform: translate3d(6px, -5px, 0) rotate(0.8deg); }
+    }
+
+
