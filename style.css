@@ -278,3 +278,14 @@
       );
       border-bottom: 3.5px solid var(--ink);
     }
+
+    /* Machine Header with Meter */
+    .machine-top-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 2px dashed #cbd5e1;
+    }
+
