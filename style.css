@@ -60,3 +60,14 @@
     }
 
 
+    /* Top Nav / Controls */
+    .top-bar {
+      width: 100%;
+      max-width: 860px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+
