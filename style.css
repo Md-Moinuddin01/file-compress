@@ -1,1 +1,21 @@
+    :root {
+      --bg: #fdf6e2;
+      --card-bg: #ffffff;
+      --ink: #18181b;
+      --yellow: #ffd60a;
+      --yellow-bright: #ffea00;
+      --orange: #ff7b00;
+      --red: #ff2a5f;
+      --green: #10b981;
+      --cyan: #06b6d4;
+      --purple: #8b5cf6;
+      --metal-light: #e2e8f0;
+      --metal-mid: #94a3b8;
+      --metal-dark: #475569;
+      --shadow: 5px 5px 0px var(--ink);
+      --shadow-lg: 8px 8px 0px var(--ink);
+      --shadow-sm: 3px 3px 0px var(--ink);
+      --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      --font-comic: "Impact", "Arial Black", system-ui, sans-serif;
+    }
 
