@@ -300,3 +300,42 @@
       align-items: center;
       gap: 6px;
     }
+
+
+    /* Cartoon Pressure Gauge */
+    .pressure-gauge {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #f1f5f9;
+      border: 2.5px solid var(--ink);
+      border-radius: 999px;
+      padding: 4px 12px;
+      box-shadow: var(--shadow-sm);
+    }
+    .gauge-dial {
+      width: 28px;
+      height: 28px;
+      background: radial-gradient(circle, #fff 40%, #e2e8f0 100%);
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+    }
+    .gauge-needle {
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      width: 2px;
+      height: 11px;
+      background: var(--red);
+      transform-origin: bottom center;
+      transform: rotate(-50deg);
+      transition: transform 0.2s cubic-bezier(.34,1.56,.64,1);
+    }
+    .gauge-label {
+      font-family: var(--font-comic);
+      font-size: 12px;
+      text-transform: uppercase;
+      color: var(--ink);
+    }
