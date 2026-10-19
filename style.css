@@ -195,3 +195,11 @@
       align-items: center;
       gap: 6px;
     }
+
+
+    .soundboard-hint {
+      font-size: 12px;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+    }
