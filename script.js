@@ -1,7 +1,7 @@
 /* ==========================================================================
        1. WEB AUDIO API SYNTHESIZER
        Generates cartoon meme sounds entirely via math & oscillators
-       ========================================================================== */
+      ========================================================================== */
     class SoundEngine {
       constructor() {
         this.ctx = null;
